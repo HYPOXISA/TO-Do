@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Epilogue", sans-serif;
 }
-@media (min-width: 1670px) {
+@media (min-width: 1280px) {
   .clearfix::after {
     content: " ";
     display: block;
@@ -91,12 +91,12 @@
 
   .month .fa-chevron-left {
     float: left;
-    margin-left: 500px;
+    margin-left: 50px;
   }
 
   .month .fa-chevron-right {
     float: right;
-    margin-right: 500px;
+    margin-right: 50px;
   }
   .dayCount {
     width: 87.5%;
@@ -281,7 +281,7 @@
     background-color: rgba(247, 182, 173, 0.503);
   }
 }
-@media (min-width: 431px) and (max-width: 1669px) {
+@media (min-width: 431px) and (max-width: 1279px) {
   .clearfix::after {
     content: " ";
     display: block;
@@ -306,7 +306,7 @@
   /* main */
   .main {
     width: 95%;
-    height: 70%;
+    height: 90%;
     margin: 20px auto 0;
     padding: 20px 0px 20px 25px;
     border-radius: 10px;
@@ -368,12 +368,12 @@
 
   .month .fa-chevron-left {
     float: left;
-    margin-left: 500px;
+    margin-left: 50px;
   }
 
   .month .fa-chevron-right {
     float: right;
-    margin-right: 500px;
+    margin-right: 50px;
   }
   .dayCount {
     width: 95%;
@@ -396,7 +396,7 @@
   /* todo */
   .todo {
     width: 90%;
-    height: 20%;
+    height: 30%;
     margin: 20px auto;
     background: white;
     padding: 20px;
